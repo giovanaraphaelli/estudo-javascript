@@ -21,7 +21,7 @@ nav.style.backgroundColor = "black";
 
 # Tipo de Dados
 
-- String = Representa um texto, colocando em aspas simples ou duplas.
+- String = Representa um texto, colocando em aspas simples ou duplas
   Podemos utilizar o sinal de + para concatenar
 - Number
 - Object
@@ -34,6 +34,7 @@ nav.style.backgroundColor = "black";
 # Objetos
 
 Manter os dados associados e organizados
+Tudo em JavaScript é Objeto!
 
 Ex:
 
@@ -43,4 +44,24 @@ nome: "O Senhor dos Anéis"
 ano: 1954,
 autor: "J. R. R. Tolkien"
 }
+```
+
+Selecionar propriedade de um objeto
+Ex:
+
+```javascript
+console.log(livro.autor);
+```
+
+Uma simples String também é um objeto!
+Ex:
+
+```javascript
+const autor = "J. R. R. Tolkien";
+console.log(autor.length); // Da a quantidade de caracteres da String
+console.log(autor.toUpperCase()); // Método para Retornar em Maiúscula
+
+const decimal = 2.99;
+console.log(decimal.toFixed()); // Para arredondar, essa função retorna em String
+console.log(Number(decimal.toFixed())); // Agora convertido para número
 ```
