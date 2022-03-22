@@ -1,4 +1,4 @@
-#Manipulação do DOM#
+# Manipulação do DOM
 
 Com Javascript nos podemos manipular a página baseado nas ações do usuário
 
@@ -19,7 +19,7 @@ Ex:
 nav.style.backgroundColor = "black";
 ```
 
-#Tipo de Dados#
+# Tipo de Dados
 
 - String = Representa um texto, colocando em aspas simples ou duplas.
   Podemos utilizar o sinal de + para concatenar
@@ -31,7 +31,7 @@ nav.style.backgroundColor = "black";
 
 **Transformar String em Número: const transformar = Number("20");**
 
-#Objetos#
+# Objetos
 
 Manter os dados associados e organizados
 
