@@ -37,7 +37,7 @@ Tudo em JavaScript é Objeto! <br>Ex:</p>
 
 ```javascript
 const livro = {
-nome: "O Senhor dos Anéis"
+nome: "O Senhor dos Anéis",
 ano: 1954,
 autor: "J. R. R. Tolkien"
 }
