@@ -37,10 +37,10 @@ Tudo em JavaScript é Objeto! <br>Ex:</p>
 
 ```javascript
 const livro = {
-nome: "O Senhor dos Anéis",
-ano: 1954,
-autor: "J. R. R. Tolkien"
-}
+  nome: "O Senhor dos Anéis",
+  ano: 1954,
+  autor: "J. R. R. Tolkien",
+};
 ```
 
 <p>Selecionar propriedade de um objeto <br>Ex:</p>
@@ -127,4 +127,35 @@ logLivro();
 
 // Erro, pois a constante livro não existe
 console.log(livro);
+```
+
+# Método
+
+<p>É uma função dentro de um Objeto<br>Ex:</p>
+
+```javascript
+const curso = {
+  nome: "JavaScript",
+  completar() {
+    console.log(this.nome + ": Curso Completo.");
+  },
+  horas: "40 horas",
+};
+
+curso.completar();
+```
+
+# Eventos
+
+<p>Podemos adicionar funções que serão executadas caso um evento ocorra. O evento ocorre no documento inteiro ou no elemento do dom. Usamos o método addEventListener para adicionar eventos.<br>Ex:</p>
+
+```javascript
+const ativar = document.querySelector(".ativar");
+
+function ativarAoClick() {
+  console.log("Clicou em:", ativar);
+}
+
+// A função passada é chamada de callback
+ativar.addEventListener("click", ativarAoClick);
 ```

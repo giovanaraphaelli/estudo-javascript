@@ -1,0 +1,9 @@
+const botao = document.querySelector(".botao");
+console.log(botao);
+
+function mostrar() {
+  const texto = document.querySelector(".texto");
+  texto.classList.toggle("ativar");
+}
+
+botao.addEventListener("click", mostrar);
