@@ -1,6 +1,6 @@
 # Manipulação do DOM
 
-<p>Com Javascript nos podemos manipular a página baseado nas ações do usuário</p>
+Com Javascript nos podemos manipular a página baseado nas ações do usuário
 
 1. Seleciona o elemento e atribui a uma variável.
 
@@ -32,8 +32,8 @@ nav.style.backgroundColor = "black";
 
 # Objetos
 
-<p>Manter os dados associados e organizados.<br>
-Tudo em JavaScript é Objeto! <br>Ex:</p>
+Manter os dados associados e organizados.<br>
+Tudo em JavaScript é Objeto! <br>Ex:
 
 ```javascript
 const livro = {
@@ -43,13 +43,13 @@ const livro = {
 };
 ```
 
-<p>Selecionar propriedade de um objeto <br>Ex:</p>
+Selecionar propriedade de um objeto <br>Ex:
 
 ```javascript
 console.log(livro.autor);
 ```
 
-<p>Uma simples String também é um objeto!<br>Ex:</p>
+Uma simples String também é um objeto!<br>Ex:
 
 ```javascript
 const autor = "J. R. R. Tolkien";
@@ -63,7 +63,7 @@ console.log(Number(decimal.toFixed())); // Agora convertido para número
 
 # Funções
 
-<p>As funções (Function) são blocos de código que podem ser executados. A execução pode acontecer em diferentes cenários e diversas vezes. Para executar utilizamos os parênteses <br>Ex:</p>
+As funções (Function) são blocos de código que podem ser executados. A execução pode acontecer em diferentes cenários e diversas vezes. Para executar utilizamos os parênteses <br>Ex:
 
 ```javascript
 function logCurso() {
@@ -77,7 +77,7 @@ logCurso();
 
 ## Parâmetro e Argumento
 
-<p>Podemos definir parâmetros durante a criação da função. Durante a execução, podemos passar argumentos ('nome'), que serão utilizados nos parâmetros.<br>Ex:</p>
+Podemos definir parâmetros durante a criação da função. Durante a execução, podemos passar argumentos ('nome'), que serão utilizados nos parâmetros.<br>Ex:
 
 ```javascript
 function logCurso(nome, horas) {
@@ -92,7 +92,7 @@ logCurso("CSS", "30");
 
 ## Retorno
 
-<p>Toda função retorna um valor (tipo de dado). Se o retorno não for declarado utilizado a palavra return, o valor retornado será undefined.<br>Ex:</p>
+Toda função retorna um valor (tipo de dado). Se o retorno não for declarado utilizado a palavra return, o valor retornado será undefined.<br>Ex:
 
 ```javascript
 function logCurso(nome) {
@@ -106,7 +106,7 @@ console.log(valor);
 
 ## Escopo
 
-<p>Uma função cria o seu próprio escopo. Isso significa que variáveis declaradas dentro de uma função, não podem ser acessadas fora das mesmas. Porém, variáveis criadas fora da função, podem ser acessadas pela mesma.<br>Ex:</p>
+Uma função cria o seu próprio escopo. Isso significa que variáveis declaradas dentro de uma função, não podem ser acessadas fora das mesmas. Porém, variáveis criadas fora da função, podem ser acessadas pela mesma.<br>Ex:
 
 ```javascript
 const nome = "JavaScript";
@@ -131,7 +131,7 @@ console.log(livro);
 
 # Método
 
-<p>É uma função dentro de um Objeto<br>Ex:</p>
+É uma função dentro de um Objeto<br>Ex:
 
 ```javascript
 const curso = {
@@ -147,7 +147,7 @@ curso.completar();
 
 # Eventos
 
-<p>Podemos adicionar funções que serão executadas caso um evento ocorra. O evento ocorre no documento inteiro ou no elemento do dom. Usamos o método addEventListener para adicionar eventos.<br>Ex:</p>
+Podemos adicionar funções que serão executadas caso um evento ocorra. O evento ocorre no documento inteiro ou no elemento do dom. Usamos o método addEventListener para adicionar eventos.<br>Ex:
 
 ```javascript
 const ativar = document.querySelector(".ativar");
